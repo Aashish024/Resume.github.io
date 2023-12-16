@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+}
+main{
+    margin: 10px 30px 10px 30px;
+    background-color: antiquewhite;
+    padding: 2%;
+}
+.profile{
+    display: flex;
+    border-radius: 50px;
+}
+.circle {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+  }
+.profile_picture{
+    display: flex;
+}
+.profile_info{
+    display: inline-table;
+    padding: 2%;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 20%;
+}
+.projects{
+    padding: 10px;
+}
+table{
+    display: block;
+    text-align: left;
+    margin: auto;
+    .tr{
+        margin-left: 10px;
+    }
+}
